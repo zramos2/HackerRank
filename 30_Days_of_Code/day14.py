@@ -2,9 +2,9 @@ class Difference:
     def __init__(self, a):
         self.__elements = a
 
+
     def computeDifference(self):
-        maximumDifference = max(a) - min(a)
-        maximumDifference = 0
+        self.maximumDifference = max(self.__elements) - min(self.__elements)
 
 # End of Difference class
 
