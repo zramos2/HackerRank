@@ -1,7 +1,7 @@
 import sys
 
 # https://stackabuse.com/stacks-and-queues-in-python/
-# Not a good example of stacks and queues
+# !WARNING!: Not a good example of stacks and queues
 
 class Solution:
     def __init__(self):
@@ -41,4 +41,4 @@ for i in range(l // 2):
 if isPalindrome:
     print("The word, "+s+", is a palindrome.")
 else:
-    print("The word, "+s+", is not a palindrome.")    
+    print("The word, "+s+", is not a palindrome.")
